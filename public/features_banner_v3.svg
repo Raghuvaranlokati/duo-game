@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="380">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="featBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="featBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800;900&amp;display=swap');
+
+    .feat-header {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 24px;
+      font-weight: 900;
+      fill: #f472b6;
+    }
+
+    .card-title {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 13.5px;
+      font-weight: 800;
+      fill: #ffffff;
+    }
+
+    .card-desc {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      fill: #94a3b8;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="896" height="376" rx="24" fill="url(#featBg)" stroke="url(#featBorder)" stroke-width="2.5" />
+
+  <!-- Header Title -->
+  <text x="450" y="44" text-anchor="middle" class="feat-header">🚀 GAME FEATURES SHOWCASE (UPDATED)</text>
+
+  <!-- 6 Grid Feature Cards with Explicit Coordinates -->
+
+  <!-- Card 1: Multi-Player & Room Owner (x=45, y=65) -->
+  <g>
+    <rect x="45" y="65" width="255" height="135" rx="16" fill="#1e293b" stroke="#ec4899" stroke-width="1.5" />
+    <text x="60" y="98" class="card-title">👑 Room Owner &amp; 1000 Players</text>
+    <text x="60" y="124" class="card-desc">First player becomes Room Owner (👑).</text>
+    <text x="60" y="142" class="card-desc">Set max capacity up to 1,000 players,</text>
+    <text x="60" y="160" class="card-desc">kick members, or start game early!</text>
+  </g>
+
+  <!-- Card 2: Secret Vault & Synchronized Reveal (x=322, y=65) -->
+  <g>
+    <rect x="322" y="65" width="255" height="135" rx="16" fill="#1e293b" stroke="#a855f7" stroke-width="1.5" />
+    <text x="337" y="98" class="card-title">🎭 Multi-Player Secret Reveal</text>
+    <text x="337" y="124" class="card-desc">Secret answers locked in vault.</text>
+    <text x="337" y="142" class="card-desc">Reveal button unlocks ONLY when 100%</text>
+    <text x="337" y="160" class="card-desc">of online members submit answers!</text>
+  </g>
+
+  <!-- Card 3: Vibe Match Sync (x=600, y=65) -->
+  <g>
+    <rect x="600" y="65" width="255" height="135" rx="16" fill="#1e293b" stroke="#06b6d4" stroke-width="1.5" />
+    <text x="615" y="98" class="card-title">💖 Vibe Match Sync %</text>
+    <text x="615" y="124" class="card-desc">Calculates instant compatibility score</text>
+    <text x="615" y="142" class="card-desc">(e.g., 98% Telepathic Bond! 💖 or</text>
+    <text x="615" y="160" class="card-desc">Soulmate Energy ✨) on every reveal.</text>
+  </g>
+
+  <!-- Card 4: Player Activity Log (/users) (x=45, y=215) -->
+  <g>
+    <rect x="45" y="215" width="255" height="135" rx="16" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" />
+    <text x="60" y="248" class="card-title">👥 Player Activity Log (/users)</text>
+    <text x="60" y="274" class="card-desc">Dedicated registry logging player name,</text>
+    <text x="60" y="292" class="card-desc">emoji avatar, room code, owner role,</text>
+    <text x="60" y="310" class="card-desc">and exact date &amp; time timestamp!</text>
+  </g>
+
+  <!-- Card 5: Smart Disconnect Auto-Prune (x=322, y=215) -->
+  <g>
+    <rect x="322" y="215" width="255" height="135" rx="16" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+    <text x="337" y="248" class="card-title">⏱️ Smart Disconnect &amp; Auto-Prune</text>
+    <text x="337" y="274" class="card-desc">Displays 30s notice if player leaves.</text>
+    <text x="337" y="292" class="card-desc">Auto-removes offline users after 60s</text>
+    <text x="337" y="310" class="card-desc">so active players can reveal &amp; continue!</text>
+  </g>
+
+  <!-- Card 6: Live Chat & Audio Chimes (x=600, y=215) -->
+  <g>
+    <rect x="600" y="215" width="255" height="135" rx="16" fill="#1e293b" stroke="#f472b6" stroke-width="1.5" />
+    <text x="615" y="248" class="card-title">💬 Live Room Chat &amp; Audio</text>
+    <text x="615" y="274" class="card-desc">Real-time room messaging with audio</text>
+    <text x="615" y="292" class="card-desc">chimes 🔔, top-screen toast banners,</text>
+    <text x="615" y="310" class="card-desc">unread badges, and 4 aesthetic themes.</text>
+  </g>
+</svg>

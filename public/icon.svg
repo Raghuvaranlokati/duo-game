@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Background rounded box -->
+  <rect width="512" height="512" rx="140" fill="url(#bg)" />
+  
+  <!-- Glowing Heart SVG -->
+  <path d="M256 420s-140-90-180-170c-30-60 0-130 65-130 45 0 80 30 115 70 35-40 70-70 115-70 65 0 95 70 65 130-40 80-180 170-180 170z" fill="#ffffff" filter="url(#glow)" opacity="0.95" />
+
+  <!-- Sparkle Star 1 -->
+  <path d="M380 100 L390 125 L415 135 L390 145 L380 170 L370 145 L345 135 L370 125 Z" fill="#fef08a" />
+  
+  <!-- Sparkle Star 2 -->
+  <path d="M120 340 L127 357 L144 364 L127 371 L120 388 L113 371 L96 364 L113 357 Z" fill="#fef08a" />
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 130" width="100%" height="130">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Text Glow Gradient -->
+    <linearGradient id="textGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="846" height="126" rx="24" fill="url(#bannerBg)" stroke="url(#borderGlow)" stroke-width="2.5" />
+
+  <!-- Main Highlight Sentence -->
+  <text x="425" y="52" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="23" font-weight="900" fill="url(#textGlow)">
+    ❓ Ask Secret Questions  •  🔒 Lock Answers  •  ✨ Click Reveal!
+  </text>
+
+  <!-- Secondary Feature Pills Group (Centered: 135px start offset) -->
+  <g transform="translate(135, 74)" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+    <!-- Pill 1: Vibe Match Score -->
+    <rect x="0" y="0" width="175" height="30" rx="15" fill="rgba(236, 72, 153, 0.2)" stroke="#ec4899" stroke-width="1.2" />
+    <text x="87.5" y="20" text-anchor="middle" font-size="11.5" font-weight="800" fill="#f472b6">💖 VIBE MATCH SCORE</text>
+
+    <!-- Pill 2: Room Owner Admins -->
+    <rect x="190" y="0" width="195" height="30" rx="15" fill="rgba(168, 85, 247, 0.2)" stroke="#a855f7" stroke-width="1.2" />
+    <text x="287.5" y="20" text-anchor="middle" font-size="11.5" font-weight="800" fill="#c084fc">👑 ROOM OWNER ADMINS</text>
+
+    <!-- Pill 3: Live Chat & Emojis -->
+    <rect x="400" y="0" width="180" height="30" rx="15" fill="rgba(56, 189, 248, 0.2)" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="490" y="20" text-anchor="middle" font-size="11.5" font-weight="800" fill="#38bdf8">💬 LIVE CHAT &amp; EMOJIS</text>
+  </g>
+</svg>
