@@ -4,7 +4,7 @@
     <img src="./public/header_banner.svg" alt="DuoReveal Animated Header Banner" width="100%" />
   </a>
 
-  <br><br>
+  <br><br> 
 
   <a href="https://duo-qa-game.vercel.app">
     <img src="./public/typing_banner.svg" alt="Animated Typing Banner" width="100%" />
